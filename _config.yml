@@ -6,7 +6,7 @@ baseurl             : "/"                     # Change to empty quotes if you ar
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 paginate: 25
-paginate_path: "/:num/"
+paginate_path: "/blog/page-:num/"
 
 ### Plugins ###
 plugins:
@@ -16,7 +16,8 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
+  - pages/tags.html  
+  - blog/page-:num/index.html
   - pages/404.html
   - pages/index.md
   - documentation/partials/**                           # For Documentation Only
