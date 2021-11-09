@@ -1,9 +1,9 @@
 # Site
 name: "Memoirs"
 title: "Memoirs"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+description: "Exploring TRB Chemistry!"
+logo: 'channel_profile.jpg'
+favicon: 'channel_profile.jpg'
 baseurl: /
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
@@ -14,23 +14,15 @@ email: wowthemesnet@gmail.com
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  parthiban:
+    name: Parthiban
+    display_name: parthi
     avatar: 'assets/images/avatar-sal.png'
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/donate/
+    web: https://chemistry.lkgforit.com/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
-
+    description: "Author of Exploring TRB Chemistry."
+ 
 # Plugins
 plugins:
   - jekyll-paginate
@@ -53,7 +45,7 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: none
+highlighter: rouge
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
